@@ -3,13 +3,14 @@ COMP5530 Group Project
 
 
 
-## How to build
+## Build with Visual Studio
 
 ```bash
 mkdir build && cd build
-cmake .. -DCMAKE_BUILD_TYPE=Debug # or Release
-cmake --build ./ --target SPWTestApp -j 16
+cmake ..
 ```
+open with `.sln` with visual Studio, select `SPWEditorTest` as your startup program, swtich to `Release` or `ReleaseWithInfo` mode, setup your **working directory as root directory**, it will work. 
+
 ### environment required
 
 | Library | Version |
